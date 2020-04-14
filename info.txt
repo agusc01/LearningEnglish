@@ -1,0 +1,3 @@
+Information about how to use gettext (to translate the program)
+
+https://phrase.com/blog/posts/translate-python-gnu-gettext/
