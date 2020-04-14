@@ -13,6 +13,7 @@ def main():
 		singular = input("noun?: ").lower()
 		print("")
 		endWith = singular[len(singular)-2:]
+		print(endWith)
 
 		if not singular in irregularNouns:
 
@@ -28,7 +29,7 @@ def main():
 				yCase(singular)
 
 			#Casos con sustantivo que termina con "f"
-			elif endWith[1]=="f":
+			elif endWith[1]=="f" and endWith[0]!='f':
 				fCase(singular)
 
 			#Casos con sustantivo que termina con "fe"
